@@ -1,0 +1,18 @@
+# Semantic Video Conferencing – Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core CV / ML
+opencv-python>=4.8
+mediapipe>=0.10
+insightface>=0.7
+numpy>=1.24
+onnxruntime>=1.16       # backend for InsightFace
+
+# Audio (Voice Activity Detection)
+pyaudio>=0.2.13         # may need: sudo apt install portaudio19-dev (Linux)
+
+# WebSocket transport
+websockets>=12.0
+
+# Optional – if you later integrate DeepFace for richer emotion recognition
+# deepface>=0.0.79
